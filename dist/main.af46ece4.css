@@ -1,0 +1,44 @@
+body {
+    background-color: #493F93;
+}
+.wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.wrap h1 .material-icons {
+    font-size: 120px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.wrap .lg-text {
+    color: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+}
+.wrap .lg-text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 2.5px;
+    height: 100%;
+    background-color: #fff;
+}
+.wrap .lg-text.active::after {
+    display: none;
+}
+.wrap .sm-text {
+    color: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 15px;
+}
+
+
+/*# sourceMappingURL=/main.af46ece4.css.map */
